@@ -114,9 +114,16 @@ namespace MarsRovers
                     moveFwrd();
                 }
 
+                printPosition();
             }
         }
 
+        public void printPosition() {
+            Console.WriteLine("X:" + this.X);
+            Console.WriteLine("Y:" + this.Y);
+            Console.WriteLine("XDir:" + this.dir);
+            Console.WriteLine("-----------------");
+        }
 
 
         public int getX()
