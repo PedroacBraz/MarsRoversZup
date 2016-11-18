@@ -13,6 +13,7 @@ Uma solução para o projeto Mars Rovers.
 6: Repita a partir do passo 3 para criar um novo rover, ou digite "EXIT" para finalizar.<br />
 
 - Validações implementadas:
+
 1: Não é possível dar coordenadas negativas para o limite superior direito do plateau.<br />
 2: Não é possível criar um rover fora dos limites do plateau.<br />
 3: Linhas de comando para o rover com caracteres em lower case são convertidas automaticamente para upper case (Ex.: MMmmLLr -> MMMMLLR).<br />
