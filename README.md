@@ -35,5 +35,6 @@ MMMMMRMMMMMRMMMMMRMMMMMR
 0 0 N
 
 - Obsvervações:
+
 1: Foi considerado que ao termino da execução da linha de comando de um rover, este se retira do plateau, não havendo colisão entre rovers.<br />
 2: Rovers executam suas instruções sequencialmente, ou seja, um rover não inicia sua execução caso outro rover esteja trabalhando.<br />
