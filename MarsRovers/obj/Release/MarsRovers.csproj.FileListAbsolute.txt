@@ -1,0 +1,6 @@
+E:\GitHub\MarsHovers\MarsRovers\MarsRovers\bin\Release\MarsRovers.exe.config
+E:\GitHub\MarsHovers\MarsRovers\MarsRovers\bin\Release\MarsRovers.exe
+E:\GitHub\MarsHovers\MarsRovers\MarsRovers\bin\Release\MarsRovers.pdb
+E:\GitHub\MarsHovers\MarsRovers\MarsRovers\obj\Release\MarsRovers.csprojResolveAssemblyReference.cache
+E:\GitHub\MarsHovers\MarsRovers\MarsRovers\obj\Release\MarsRovers.exe
+E:\GitHub\MarsHovers\MarsRovers\MarsRovers\obj\Release\MarsRovers.pdb
