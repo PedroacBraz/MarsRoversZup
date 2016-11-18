@@ -17,7 +17,7 @@ Uma solução para o projeto Mars Rovers.
 1: Não é possível dar coordenadas negativas para o limite superior direito do plateau.<br />
 2: Não é possível criar um rover fora dos limites do plateau.<br />
 3: Linhas de comando para o rover com caracteres em lower case são convertidas automaticamente para upper case (Ex.: MMmmLLr -> MMMMLLR).<br />
-4: O mesmo é válido para o comando "EXIT" ou coordenadas.<br />
+4: O mesmo é válido para o comando "EXIT" ou direções.<br />
 
 - Exemplos de Entradas
 5 5<br />
