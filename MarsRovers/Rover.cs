@@ -6,18 +6,20 @@ using System.Threading.Tasks;
 
 namespace MarsRovers
 {
+
+    // The class for our rovers
     class Rover
     {
 
-        int X;
-        int Y;
-        char dir;
-        int upperLimitX;
-        int upperLimitY;
-        String controlString;
+        int X;                  // Rover's X coord
+        int Y;                  // Rover's Y coord
+        char dir;               // Rover's facing direction
+        int upperLimitX;        // The X coord of the upper right limit of the plateau
+        int upperLimitY;        // The Y coord of the upper right limit of the plateau
+        String controlString;   // Rover's control string
 
 
-        //inicializa o Rover
+        //Rover's Constructor 
         public Rover(int X, int Y, char dir, int upperLimitX, int upperLimitY)
         {
 
@@ -113,18 +115,29 @@ namespace MarsRovers
                 {
                     moveFwrd();
                 }
-
-                printPosition();
+   
             }
+
+            printPosition();
         }
 
         public void printPosition() {
-            Console.WriteLine("X:" + this.X);
-            Console.WriteLine("Y:" + this.Y);
-            Console.WriteLine("XDir:" + this.dir);
-            Console.WriteLine("-----------------");
+           
+            Console.WriteLine(this.X + " " + this.Y + " " + this.dir);
         }
 
+
+        public void setCtrlString(String ctrlString)
+        {
+            this.controlString = ctrlString;
+        }
+
+        // Get methods to use in debugging
+
+        public String getCtrlString()
+        {
+            return this.controlString;
+        }
 
         public int getX()
         {
@@ -139,16 +152,6 @@ namespace MarsRovers
         public char getDir()
         {
             return this.dir;
-        }
-
-        public void setCtrlString(String ctrlString)
-        {
-            this.controlString = ctrlString;
-        }
-
-        public String getCtrlString()
-        {
-            return this.controlString;
         }
     }
 }

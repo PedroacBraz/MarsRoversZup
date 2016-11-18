@@ -1,4 +1,4 @@
-﻿#define DEBUG
+﻿//#define DEBUG
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,9 +13,6 @@ namespace MarsRovers
         static void Main(string[] args)
         {
 
-            //Lista para armazenar os rovers criados
-            //List<Rover> myRovers = new List<Rover>();
-
             Rover myRover;
 
             String coords = "";
@@ -24,7 +21,7 @@ namespace MarsRovers
             String[] substrings = null;
             int upperLimitX = -1, upperLimitY = -1;
             bool createRover;
-            bool commandRover;
+       
 
             Char delimiter = ' ';
 
@@ -46,8 +43,7 @@ namespace MarsRovers
             {
 
                 createRover = true;
-                commandRover = true;
-                Console.WriteLine("Insert the Rover's position (X Y) and orientation (N, W, S or E), or type EXIT finish rover input");
+                Console.WriteLine("Insert the Rover's position (X Y) and orientation (N, W, S or E),  (Ex.: 3 2 W), or type EXIT finish rover input");
                 roverCoords = Console.ReadLine();
 
                 if (roverCoords == "EXIT")
@@ -55,6 +51,7 @@ namespace MarsRovers
                     Console.WriteLine("Exiting...");
                     break;
                 }
+
                 //Divide a linha recebida e converte as substrings nos tipos necessários durante a criação do novo Rover
                 //adicionando-o na lista de Rovers criados
                 substrings = roverCoords.Split(delimiter);
@@ -78,8 +75,6 @@ namespace MarsRovers
                     myRover = new Rover(int.Parse(substrings[0]), int.Parse(substrings[1]), char.Parse(substrings[2]), upperLimitX, upperLimitY);
 
 #if DEBUG
-
-
                     Console.WriteLine("New rover in position " + myRover.getX()
                         + " " + myRover.getY()
                         + " " + myRover.getDir());
