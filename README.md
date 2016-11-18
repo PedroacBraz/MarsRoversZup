@@ -20,19 +20,19 @@ Uma solução para o projeto Mars Rovers.
 4: O mesmo é válido para o comando "EXIT" ou coordenadas.<br />
 
 - Exemplos de Entradas
-5 5
-1 2 N
-LMLMLMLMM
-3 3 E
-MMRMMRMRRM
-0 0 N
-MMMMMRMMMMMRMMMMMRMMMMMR
+5 5<br />
+1 2 N<br />
+LMLMLMLMM<br />
+3 3 E<br />
+MMRMMRMRRM<br />
+0 0 N<br />
+MMMMMRMMMMMRMMMMMRMMMMMR<br />
 
 - Saídas esperadas
 
-1 3 N
-5 1 E
-0 0 N
+1 3 N<br />
+5 1 E<br />
+0 0 N<br />
 
 - Obsvervações:
 
